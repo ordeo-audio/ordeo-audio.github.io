@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Open+Sans:300');
+
+* {-webkit-font-smoothing: antialiased;}
+
+div {
+  box-sizing: border-box;
+}
+
+
+div#business-card {
+  padding: 7em;
+}
+
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 3.3em;
+  letter-spacing: .1em;
+  margin-bottom: 0em;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 60%;
+  margin: 10% auto 0;
+}
+
+
+#business-card {
+  background-color: #323232;
+  color: #fff;
+  text-align: center;
+  margin-top: 10%!important;
+}
+
+#business-card a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#business-card a:hover {
+  color: #DAA520;
+  transition: color 0.5s ease;
+}
+
+#business-card p {
+  margin-bottom: 0;
+  letter-spacing: .15em;
+  line-height: 1.3;
+}
+
+#business-card p:nth-child(3) {
+  margin-bottom: 0;
+  letter-spacing: .24em;
+}
+
+#business-card p:nth-child(5) {
+  margin-bottom: 0;
+  letter-spacing: .25em;
+}
+#business-card p:nth-child(6) {
+  margin-bottom: 0;
+  letter-spacing: .2em;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  div #business-card {
+    margin-top: 15%!important;
+  }
+    .container {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  div#business-card {
+    padding: 7em 4em;
+    margin-top: 22%!important;
+}
+    .container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div#business-card {
+    padding: 7em 2em;
+}
+    .container {
+    width: 90%;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  div #business-card {
+    margin-top: 30%!important;
+  }
+    .container {
+    width: 100%;
+  }
+}
+
+
+
+
