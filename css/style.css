@@ -85,7 +85,7 @@ p {
 @media screen and (max-width: 769px) {
   div#business-card {
     padding: 7em 4em;
-    margin-top: 22%!important;
+    margin-top: 20%!important;
 }
     .container {
     width: 80%;
@@ -103,9 +103,7 @@ p {
 
 
 @media screen and (max-width: 550px) {
-  div #business-card {
-    margin-top: 30%!important;
-  }
+
     .container {
     width: 100%;
   }
