@@ -104,6 +104,10 @@ p {
 
 @media screen and (max-width: 550px) {
 
+    body {
+      background-color: #323232;
+    }
+
     .container {
     width: 100%;
   }
